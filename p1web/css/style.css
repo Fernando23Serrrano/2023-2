@@ -1,0 +1,54 @@
+header {
+    width: 1200px; 
+    height: 120px;
+    margin: 0 auto; 
+    background-color: #6490f5;
+    color: #ffffff; 
+    padding: 20px; 
+}
+.logo {
+    width: 100px; /* Establece el ancho del logotipo */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.container {
+   width: 1200px;
+}
+
+    main {
+        height: 400px;
+        width: 700px; /* Establece el ancho del <main> al 70% del contenedor principal */
+        background-color: #f0f0f0; /* Color de fondo de ejemplo para el <main> */
+        padding: 20px;
+        float: left; /* Hace que el <main> se comporte como un elemento flotante a la izquierda */
+    }
+    .imagen-pequena {
+        width: 100px; /* Establece el ancho deseado para la imagen */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    aside {
+        height: 400px;
+        width: 400px; /* Establece el ancho del <aside> al 30% del contenedor principal */
+        background-color: #ccc; /* Color de fondo de ejemplo para el <aside> */
+        padding: 20px;
+        float: left; /* Hace que el <aside> se comporte como un elemento flotante a la izquierda */
+    }
+.clear {
+    clear: both;
+
+    }
+
+    .footer-container {
+        display: flex; /* Utiliza flexbox para organizar los elementos en fila */
+    }
+    
+    footer {
+        height: 80px;
+        flex: 1; /* Hace que los elementos <footer> ocupen el espacio disponible y se distribuyan uno al lado del otro */
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        margin: 5px; /* Espacio entre los elementos <footer> */
+    }
+
